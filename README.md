@@ -224,7 +224,7 @@ price_update
 | includes/router.php | includes/ | Маршрутизирует запросы к нужным модулям |
 | includes/excel_parser.php | PhpSpreadsheet | Читает Excel-файл и формирует массив данных для последующей обработки |
 | includes/validator.php | - | Проверяет корректность структуры и данных Excel-файла (наличие нужных колонок, пустые значения, типы данных) |
-| includes/json_exporter.php | JSON API  output(папка, где будут создаваться json-файлы) | Преобразует валидированные данные в JSON-файл в папку output/, готовый для обновления БД |
+| includes/json_exporter.php | JSON API, output(папка, где будут создаваться json-файлы) | Преобразует валидированные данные в JSON-файл в папку output/, готовый для обновления БД |
 | includes/price_updater.php | db.php, models.php | Обновляет цены товаров в базе данных согласно правилам (MRC или PERCENT) Осуществляет проверку есть ли этот товар в базе. Если нет, перекидывает на вкладку Создание товара |
 | includes/new_products.php | db.php, models.php | Добавляет в базу новые товары, которых нет в текущей БД |
 | includes/models.php | db.php | Определяет модели данных |

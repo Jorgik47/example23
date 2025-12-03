@@ -114,8 +114,6 @@
 | `COLUMN_HEIGHT`       | VARCHAR(255)             | Колонка с высотой товара 
 | `COLUMN_MEASURE`      | VARCHAR(255)             | Колонка с единицей измерения 
 | `COLUMN_QUANTITY`     | VARCHAR(255)             | Колонка с количеством на складе 
-| `CREATED_AT`          | DATETIME                 | Дата создания записи 
-
 ## Новая ORM-таблица для валидации Excel-файла
 
 
